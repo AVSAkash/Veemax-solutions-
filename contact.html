@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Contact Us – Veemax Solutions</title>
+<meta name="description" content="Contact Veemax Solutions — Kishore, +91 93980 90354, veemaxsolutions@gmail.com, Hyderabad.">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="nav-top">
+  <div class="ntc">
+    <a href="tel:+919398090354">📞 +91 93980 90354</a>
+    <a href="mailto:veemaxsolutions@gmail.com">✉ veemaxsolutions@gmail.com</a>
+  </div>
+  <span class="nt-badge">Authorised Dealer · Hyderabad</span>
+</div>
+<!-- MAIN NAV -->
+<nav>
+  <a href="index.html" class="nav-logo">
+    <img src="logo.jpeg" alt="Veemax Solutions">
+    <div class="nav-logo-text">
+      <span class="nav-logo-name">Veemax Solutions</span>
+      <span class="nav-logo-tag">Industrial Products</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html" >Home</a></li>
+    <li><a href="products.html" >Products</a></li>
+    <li><a href="brands.html" >Brands</a></li>
+    <li><a href="contact.html" class='active'>Contact Us</a></li>
+  </ul>
+  <div style="display:flex;align-items:center;gap:12px">
+    <a href="contact.html" class="nav-cta">Get a Quote</a>
+    <button class="hamburger" onclick="openMob()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<!-- MOBILE NAV -->
+<div class="mob-overlay" id="mobOverlay" onclick="closeMob()"></div>
+<div class="mob-nav" id="mobNav">
+  <button class="mob-close" onclick="closeMob()">✕</button>
+  <a href="index.html" >Home</a>
+  <a href="products.html" >Products</a>
+  <a href="brands.html" >Brands</a>
+  <a href="contact.html" class='active'>Contact Us</a>
+  <a href="contact.html" style="color:#f0a0b0;margin-top:4px">Get a Quote →</a>
+  <a href="tel:+919398090354">📞 +91 93980 90354</a>
+</div>
+<div class="page-hero">
+  <div class="page-hero-dots"></div>
+  <div class="page-hero-inner">
+    <div class="page-hero-pill">Get In Touch</div>
+    <h1>Contact <span>Us</span></h1>
+    <p>Float your requirements — we respond within 24 hours with competitive, specification-matched quotations. Custom items and project enquiries welcomed.</p>
+    <div class="breadcrumb"><a href="index.html">Home</a><span>/</span>Contact Us</div>
+  </div>
+</div>
+<section id="contact-section" class="section">
+  <div class="si">
+    <div class="contact-layout">
+      <!-- LEFT INFO -->
+      <div>
+        <div class="info-card">
+          <div class="info-card-top">
+            <div class="info-card-logo">
+              <img src="logo.jpeg" alt="Veemax Solutions">
+              <span>Veemax Solutions</span>
+            </div>
+            <div class="info-card-tagline">Industrial Instrumentation &amp; Process Equipment — Manufacturers &amp; Authorised Dealers, Hyderabad, Telangana, India</div>
+          </div>
+          <div class="info-card-body">
+            <div class="ic-block">
+              <div class="ic-label">Email</div>
+              <div class="ic-val"><a href="mailto:veemaxsolutions@gmail.com">veemaxsolutions@gmail.com</a></div>
+              <div class="ic-val-sub">For quotations, enquiries &amp; catalogs</div>
+            </div>
+            <div class="ic-block">
+              <div class="ic-label">Phone &amp; WhatsApp</div>
+              <div class="ic-val"><a href="tel:+919398090354">+91 93980 90354</a></div>
+              <div class="ic-val-sub"><a href="https://wa.me/919398090354" target="_blank" style="color:var(--cr)">💬 Chat on WhatsApp</a></div>
+            </div>
+            <div class="ic-block">
+              <div class="ic-label">Location</div>
+              <div class="ic-val" style="font-size:15px">Hyderabad, Telangana, India</div>
+            </div>
+            <div class="ic-block">
+              <div class="ic-label">Business Hours</div>
+              <div class="hours-row">Mon – Sat <span>9 AM – 7 PM</span></div>
+              <div class="hours-row">Sunday <span>By Appointment</span></div>
+              <div style="font-size:12px;color:var(--cr);margin-top:6px">Emergency enquiries — 24×7 on WhatsApp</div>
+            </div>
+            <div class="person-row">
+              <div class="p-avatar">K</div>
+              <div>
+                <div class="p-name">Kishore</div>
+                <div class="p-role">Proprietor, Veemax Solutions</div>
+                <div class="p-phone"><a href="tel:+919398090354">+91 93980 90354</a></div>
+              </div>
+            </div>
+          </div>
+          <iframe class="map-box" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.3!2d78.2432!3d17.4126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+      <!-- RIGHT FORM -->
+      <div id="enquiry">
+        <div class="form-card">
+          <div class="form-card-title">Send an Enquiry</div>
+          <div class="form-card-sub">Fill in your details and requirements. We'll respond within 24 hours with availability, specifications and competitive pricing.</div>
+          <form id="mainForm" onsubmit="submitForm(event)">
+            <div class="fr-2">
+              <div class="fr"><label>Full Name *</label><input type="text" placeholder="Your full name" required></div>
+              <div class="fr"><label>Company Name</label><input type="text" placeholder="Your company"></div>
+            </div>
+            <div class="fr-2">
+              <div class="fr"><label>Phone / WhatsApp *</label><input type="tel" placeholder="+91 XXXXX XXXXX" required></div>
+              <div class="fr"><label>Email Address *</label><input type="email" placeholder="your@email.com" required></div>
+            </div>
+            <div class="fr">
+              <label>Product / Category *</label>
+              <select required>
+                <option value="">— Select a category —</option>
+                <option>FLP Thermocouples / RTDs / Thermowells (Custom)</option>
+                <option>Temperature Transmitters &amp; Controllers</option>
+                <option>Bi-Metallic Temperature Gauges</option>
+                <option>Compensating Cables &amp; Accessories</option>
+                <option>Electrical Heaters — U / M / Tubular / Mica / Ceramic (Custom)</option>
+                <option>Titanium Heaters / Duct Heaters</option>
+                <option>Muffle / High Temperature Furnaces</option>
+                <option>Vortex Flowmeters</option>
+                <option>Electromagnetic Flowmeters</option>
+                <option>Coriolis / Thermal Mass Flowmeters</option>
+                <option>Rotameters — Glass or Metal Tube</option>
+                <option>Ultrasonic / Radar Level Transmitters</option>
+                <option>Level Switches (Magnetic / Paddle / Fork / Float)</option>
+                <option>Magnetic Level Indicators &amp; Gauges</option>
+                <option>Pressure Transmitters / Differential Pressure</option>
+                <option>Pressure Gauges — General or Diaphragm Sealed</option>
+                <option>VFDs — Delta / Danfoss / Mitsubishi / Fuji</option>
+                <option>PLCs / HMIs / DCS — Siemens / Mitsubishi / Delta</option>
+                <option>PIDs / Controllers / Recorders — ABB / Siemens</option>
+                <option>MCC Panels (Custom)</option>
+                <option>Control / Automation Panels (Custom)</option>
+                <option>Honeywell Valves &amp; Actuators (Exclusive)</option>
+                <option>Solenoid Valves — Rotex / Festo / Janatics</option>
+                <option>FLP / Flameproof Light Fittings — Patco / Sudhir</option>
+                <option>Fire Suppression / Fire Fighting Systems</option>
+                <option>FRP Blowers &amp; Scrubbers</option>
+                <option>Jaquar LED Lightings</option>
+                <option>Boiler / Burner / Thermic Fluid Heater Spares</option>
+                <option>Water Meters</option>
+                <option>Other / Multiple Items</option>
+              </select>
+            </div>
+            <div class="fr-2">
+              <div class="fr"><label>Quantity</label><input type="text" placeholder="e.g. 2 nos / 1 set"></div>
+              <div class="fr"><label>Urgency</label>
+                <select>
+                  <option>Immediate / Urgent</option>
+                  <option>Within 1 week</option>
+                  <option>Within 1 month</option>
+                  <option>Planning / Budgetary</option>
+                </select>
+              </div>
+            </div>
+            <div class="fr">
+              <label>Detailed Requirements &amp; Specifications</label>
+              <textarea placeholder="Please describe in detail:&#10;• Application and process conditions&#10;• Line size, pressure, temperature ranges&#10;• Existing make/model (for replacement)&#10;• Standards or certifications needed&#10;• Any other relevant details..."></textarea>
+            </div>
+            <button type="submit" class="form-submit">Send Enquiry →</button>
+            <p class="form-note">Or email: <a href="mailto:veemaxsolutions@gmail.com">veemaxsolutions@gmail.com</a> · WhatsApp: <a href="https://wa.me/919398090354">+91 93980 90354</a></p>
+          </form>
+          <div class="form-success" id="formSuccess">
+            <div class="form-success-icon">✅</div>
+            <div class="form-success-title">Enquiry Received!</div>
+            <div class="form-success-desc">Thank you for contacting Veemax Solutions.<br>We'll get back to you within 24 hours.<br><br>For urgent requirements, WhatsApp us at<br><a href="https://wa.me/919398090354" style="color:var(--cr);font-weight:600">+91 93980 90354</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand-logo">
+        <img src="logo.jpeg" alt="Veemax Solutions">
+        <p>Manufacturers &amp; authorised dealers for industrial instrumentation, process equipment, heaters, control panels and FLP products. Based in Hyderabad, Telangana, India.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="products.html?cat=sensors">Thermocouples &amp; RTDs</a></li>
+          <li><a href="products.html?cat=heaters">Electrical Heaters</a></li>
+          <li><a href="products.html?cat=flow">Flow &amp; Level</a></li>
+          <li><a href="products.html?cat=pressure">Pressure Instruments</a></li>
+          <li><a href="products.html?cat=controls">VFDs &amp; Controls</a></li>
+          <li><a href="products.html?cat=flp">FLP / Flameproof</a></li>
+          <li><a href="products.html?cat=valves">Honeywell Valves</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">All Products</a></li>
+          <li><a href="brands.html">Brands</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="contact.html">Get a Quote</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="fci">✉ <a href="mailto:veemaxsolutions@gmail.com">veemaxsolutions@gmail.com</a></div>
+        <div class="fci">📞 <a href="tel:+919398090354">+91 93980 90354</a></div>
+        <div class="fci">💬 <a href="https://wa.me/919398090354" target="_blank">WhatsApp Us</a></div>
+        <div class="fci">📍 Hyderabad, Telangana, India</div>
+        <div class="fci" style="margin-top:8px;color:rgba(255,255,255,0.55)">Kishore — Proprietor</div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Veemax Solutions. All rights reserved.</p>
+      <div class="footer-tagline">Industrial Products · Hyderabad, India</div>
+    </div>
+  </div>
+</footer>
+<a href="https://wa.me/919398090354" target="_blank" class="wa-btn" title="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+<a href="#" class="back-top" id="backTop">↑</a>
+<script src="main.js"></script>
+<script>function submitForm(e){e.preventDefault();document.getElementById('mainForm').style.display='none';document.getElementById('formSuccess').style.display='block';}</script>
+</body>
+</html>
