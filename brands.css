@@ -1,0 +1,103 @@
+/* =============================================
+   brands.css — styles for brands.html only
+   ============================================= */
+
+#brands-section { background: var(--fog); }
+.brands-full-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+.brand-card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform .25s, box-shadow .25s;
+}
+.brand-card:hover { transform: translateY(-4px); box-shadow: var(--shl); }
+.brand-card-top { padding: 28px 28px 20px; display: flex; align-items: flex-start; gap: 16px; }
+.brand-logo-box {
+  width: 64px;
+  height: 64px;
+  border-radius: 10px;
+  background: var(--fog);
+  border: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.brand-logo-initial { font-family: var(--fd); font-size: 18px; font-weight: 800; color: var(--navy); }
+.brand-name { font-family: var(--fd); font-size: 24px; font-weight: 800; color: var(--navy); letter-spacing: .5px; }
+.brand-fullname { font-size: 12.5px; color: var(--slate); margin-top: 2px; }
+.brand-status {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+.status-exclusive { background: rgba(176,16,48,0.1); color: var(--cr); border: 1px solid rgba(176,16,48,0.25); }
+.status-auth { background: rgba(14,27,42,0.07); color: var(--navy3); border: 1px solid rgba(14,27,42,0.15); }
+.brand-card-body { padding: 0 28px 22px; }
+.brand-desc { font-size: 13.5px; color: var(--slate); line-height: 1.7; margin-bottom: 14px; }
+.brand-products { display: flex; flex-wrap: wrap; gap: 6px; }
+.bp-tag {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 3px;
+  background: rgba(176,16,48,0.07);
+  color: var(--cr);
+  border: 1px solid rgba(176,16,48,0.14);
+}
+.brand-card-footer {
+  padding: 14px 28px;
+  border-top: 1px solid var(--fog);
+  background: var(--mist);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand-country { font-size: 12px; color: var(--slate); }
+.brand-enquire {
+  font-family: var(--fd);
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--cr);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: color .2s;
+}
+.brand-enquire:hover { color: var(--cr3); }
+
+/* certifications */
+#certifications { background: var(--white); }
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 40px;
+}
+.cert-card {
+  background: var(--fog);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: background .2s;
+}
+.cert-card:hover { background: rgba(176,16,48,0.06); }
+.cert-icon { font-size: 28px; margin-bottom: 10px; }
+.cert-name { font-family: var(--fd); font-size: 16px; font-weight: 700; color: var(--navy); margin-bottom: 4px; }
+.cert-desc { font-size: 12px; color: var(--slate); line-height: 1.5; }
+
+@media (max-width: 600px) { .brands-full-grid { grid-template-columns: 1fr; } }
