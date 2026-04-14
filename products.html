@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Products – Veemax Solutions</title>
+<meta name="description" content="Browse Veemax Solutions complete product catalog — flowmeters, temperature sensors, heaters, FLP products, Honeywell valves and more.">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="products.css">
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="nav-top">
+  <div class="ntc">
+    <a href="tel:+919398090354">📞 +91 93980 90354</a>
+    <a href="mailto:veemaxsolutions@gmail.com">✉ veemaxsolutions@gmail.com</a>
+  </div>
+  <span class="nt-badge">Authorised Dealer · Hyderabad</span>
+</div>
+<!-- MAIN NAV -->
+<nav>
+  <a href="index.html" class="nav-logo">
+    <img src="logo.jpeg" alt="Veemax Solutions">
+    <div class="nav-logo-text">
+      <span class="nav-logo-name">Veemax Solutions</span>
+      <span class="nav-logo-tag">Industrial Products</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html" >Home</a></li>
+    <li><a href="products.html" class='active'>Products</a></li>
+    <li><a href="brands.html" >Brands</a></li>
+    <li><a href="contact.html" >Contact Us</a></li>
+  </ul>
+  <div style="display:flex;align-items:center;gap:12px">
+    <a href="contact.html" class="nav-cta">Get a Quote</a>
+    <button class="hamburger" onclick="openMob()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<!-- MOBILE NAV -->
+<div class="mob-overlay" id="mobOverlay" onclick="closeMob()"></div>
+<div class="mob-nav" id="mobNav">
+  <button class="mob-close" onclick="closeMob()">✕</button>
+  <a href="index.html" >Home</a>
+  <a href="products.html" class='active'>Products</a>
+  <a href="brands.html" >Brands</a>
+  <a href="contact.html" >Contact Us</a>
+  <a href="contact.html" style="color:#f0a0b0;margin-top:4px">Get a Quote →</a>
+  <a href="tel:+919398090354">📞 +91 93980 90354</a>
+</div>
+
+<div class="page-hero">
+  <div class="page-hero-dots"></div>
+  <div class="page-hero-inner">
+    <div class="page-hero-pill">Complete Product Range</div>
+    <h1>Our <span>Products</span></h1>
+    <p>Browse all categories — click any product card to expand full specifications, product codes and details.</p>
+    <div class="breadcrumb"><a href="index.html">Home</a><span>/</span>Products</div>
+  </div>
+</div>
+
+<!-- FILTER BAR -->
+<div class="filter-bar">
+  <div class="filter-inner">
+    <button class="ftab active" data-cat="all" onclick="filterCat('all',this)"><span class="ftab-icon">⊞</span> All</button>
+    <button class="ftab" data-cat="sensors" onclick="filterCat('sensors',this)"><span class="ftab-icon">🌡️</span> Temp Sensors</button>
+    <button class="ftab" data-cat="heaters" onclick="filterCat('heaters',this)"><span class="ftab-icon">⚡</span> Heaters</button>
+    <button class="ftab" data-cat="flow" onclick="filterCat('flow',this)"><span class="ftab-icon">💧</span> Flow &amp; Level</button>
+    <button class="ftab" data-cat="pressure" onclick="filterCat('pressure',this)"><span class="ftab-icon">📊</span> Pressure</button>
+    <button class="ftab" data-cat="controls" onclick="filterCat('controls',this)"><span class="ftab-icon">🖥️</span> Controls</button>
+    <button class="ftab" data-cat="panels" onclick="filterCat('panels',this)"><span class="ftab-icon">🗄️</span> Panels</button>
+    <button class="ftab" data-cat="flp" onclick="filterCat('flp',this)"><span class="ftab-icon">🔒</span> FLP</button>
+    <button class="ftab" data-cat="valves" onclick="filterCat('valves',this)"><span class="ftab-icon">🔧</span> Valves</button>
+    <button class="ftab" data-cat="other" onclick="filterCat('other',this)"><span class="ftab-icon">➕</span> Other</button>
+  </div>
+</div>
+
+<section id="products-section" class="section" style="padding-top:40px">
+  <div class="si">
+    <div class="prod-grid" id="prodGrid">
+
+<div class="pcard fade-up" data-cat="sensors">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/temperature_sensors_rtd.jpg" alt="FLP Thermocouples" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Temperature Sensors · Custom Manufactured</div>
+    <div class="pcard-name">FLP Thermocouples</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">Flameproof — Gas Groups IIA, IIB, IIC</div>
+      <div class="pcard-hl">Custom sheath material, length &amp; termination</div>
+      <div class="pcard-hl">ATEX &amp; IS certified</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">FLP/ATEX</span><span class="ptag">Custom</span><span class="ptag">Ex-Proof</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/temperature_sensors_rtd.jpg" alt="FLP Thermocouples"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">FLP Thermocouples</div>
+        <div class="pdetail-desc">Custom-manufactured Flameproof thermocouples built to exact client drawings. Suitable for Zone 1 &amp; Zone 2 hazardous areas. Available in all thermocouple types (J, K, T, E, N, R, S) with various sheath materials.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Gas Groups</div><div class="spec-val">IIA, IIB, IIC</div></div><div class="spec-item"><div class="spec-label">Certification</div><div class="spec-val">ATEX, IS, Ex-Proof</div></div><div class="spec-item"><div class="spec-label">Sheath Material</div><div class="spec-val">SS304, SS316, Inconel</div></div><div class="spec-item"><div class="spec-label">Temp Range</div><div class="spec-val">Up to 1600°C</div></div><div class="spec-item"><div class="spec-label">Connection Head</div><div class="spec-val">FLP / W-Proof / Custom</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="sensors">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/temperature_sensors_rtd.jpg" alt="RTDs (PT100 / PT1000)" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Temperature Sensors · Custom Manufactured</div>
+    <div class="pcard-name">RTDs (PT100 / PT1000)</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">Range 0–600°C, PT100 / PT1000</div>
+      <div class="pcard-hl">Stem OD 6, 8, 10, 12, 16, 19mm</div>
+      <div class="pcard-hl">Custom length and connection type</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">PT100</span><span class="ptag">Custom</span><span class="ptag">SS316</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/temperature_sensors_rtd.jpg" alt="RTDs (PT100 / PT1000)"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">RTDs (PT100 / PT1000)</div>
+        <div class="pdetail-desc">Custom RTDs manufactured to exact specifications. Available in simplex and duplex configurations with all standard connection types. Suitable for process industries and OEM equipment.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Type</div><div class="spec-val">PT100 / PT1000</div></div><div class="spec-item"><div class="spec-label">Range</div><div class="spec-val">0 to 600°C</div></div><div class="spec-item"><div class="spec-label">Stem OD</div><div class="spec-val">6, 8, 10, 12, 16, 19mm</div></div><div class="spec-item"><div class="spec-label">Material</div><div class="spec-val">SS304 / SS316 / Inconel</div></div><div class="spec-item"><div class="spec-label">Configuration</div><div class="spec-val">Simplex / Duplex</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="sensors">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/temperature_transmitter.jpg" alt="Temperature Transmitters" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Temperature · Standard &amp; Custom</div>
+    <div class="pcard-name">Temperature Transmitters</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">4–20mA + HART output, 24VDC supply</div>
+      <div class="pcard-hl">Head-mount &amp; field-mount types</div>
+      <div class="pcard-hl">Range 0–1600°C, custom probe length</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">4-20mA</span><span class="ptag">HART</span><span class="ptag">24VDC</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/temperature_transmitter.jpg" alt="Temperature Transmitters"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Temperature Transmitters</div>
+        <div class="pdetail-desc">Head-mount and field-mount temperature transmitters for all process industries. Compatible with thermocouples and RTDs. Available with display. FLP versions on request.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Output</div><div class="spec-val">4–20mA + HART</div></div><div class="spec-item"><div class="spec-label">Power Supply</div><div class="spec-val">24 VDC</div></div><div class="spec-item"><div class="spec-label">Range</div><div class="spec-val">0 to 1600°C</div></div><div class="spec-item"><div class="spec-label">Enclosure</div><div class="spec-val">Standard / FLP</div></div><div class="spec-item"><div class="spec-label">Input</div><div class="spec-val">TC / RTD / mV</div></div><div class="spec-item"><div class="spec-label">Product Code</div><div class="spec-val">TT-AS / TIT-AS</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="sensors">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/bimetallic_gauge.jpg" alt="Bi-Metallic Temperature Gauges" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Temperature · Process Instrument</div>
+    <div class="pcard-name">Bi-Metallic Temperature Gauges</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">Range –20 to 600°C, 360° rotatable angle</div>
+      <div class="pcard-hl">Dial 65mm / 100mm stainless steel</div>
+      <div class="pcard-hl">Custom stem length and connection</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">Local Display</span><span class="ptag">SS304</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/bimetallic_gauge.jpg" alt="Bi-Metallic Temperature Gauges"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Bi-Metallic Temperature Gauges</div>
+        <div class="pdetail-desc">Robust bimetallic temperature gauges for direct local indication in process pipes and vessels. 360° rotatable angle for optimal reading from any direction.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Range</div><div class="spec-val">–20 to 600°C</div></div><div class="spec-item"><div class="spec-label">Dial Size</div><div class="spec-val">65mm, 100mm</div></div><div class="spec-item"><div class="spec-label">Stem OD</div><div class="spec-val">6, 8, 10mm</div></div><div class="spec-item"><div class="spec-label">Connection</div><div class="spec-val">1/4", 3/8" BSP/NPT</div></div><div class="spec-item"><div class="spec-label">Angle</div><div class="spec-val">360° rotatable</div></div><div class="spec-item"><div class="spec-label">Product Code</div><div class="spec-val">BMTG</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="sensors">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/temperature_sensors_rtd.jpg" alt="Thermowells" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Temperature · Custom Manufactured</div>
+    <div class="pcard-name">Thermowells</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">SS304, SS316, Hastelloy &amp; custom materials</div>
+      <div class="pcard-hl">Flanged, threaded, socket-weld connections</div>
+      <div class="pcard-hl">Tapered and straight bore options</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">SS316</span><span class="ptag">Custom</span><span class="ptag">Flanged</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/temperature_sensors_rtd.jpg" alt="Thermowells"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Thermowells</div>
+        <div class="pdetail-desc">Custom thermowells manufactured to exact drawings. All standard and non-standard connection types, materials and bore configurations available.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Material</div><div class="spec-val">SS304, SS316, Hastelloy</div></div><div class="spec-item"><div class="spec-label">Connection</div><div class="spec-val">Flanged / Threaded / S-Weld</div></div><div class="spec-item"><div class="spec-label">Bore</div><div class="spec-val">Tapered / Straight</div></div><div class="spec-item"><div class="spec-label">C/C Distance</div><div class="spec-val">As required</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="sensors">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/temperature_sensors_rtd.jpg" alt="Compensating Cables &amp; Accessories" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Temperature · Accessories</div>
+    <div class="pcard-name">Compensating Cables &amp; Accessories</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">Types J, K, T, E, N, R, S available</div>
+      <div class="pcard-hl">PVC, PTFE, fibreglass insulation options</div>
+      <div class="pcard-hl">Full range of thermocouple accessories</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">Type K/J/T</span><span class="ptag">PTFE</span><span class="ptag">FG</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/temperature_sensors_rtd.jpg" alt="Compensating Cables &amp; Accessories"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Compensating Cables &amp; Accessories</div>
+        <div class="pdetail-desc">Complete range of thermocouple extension and compensating cables. All standard types stocked. Screened and unscreened versions.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Types</div><div class="spec-val">J, K, T, E, N, R, S</div></div><div class="spec-item"><div class="spec-label">Insulation</div><div class="spec-val">PVC / PTFE / Fibreglass</div></div><div class="spec-item"><div class="spec-label">Screen</div><div class="spec-val">Screened &amp; Unscreened</div></div><div class="spec-item"><div class="spec-label">Supply</div><div class="spec-val">Per metre / Per reel</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="heaters">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/m_type_heater.jpg" alt="M-Type &amp; U-Type Heaters" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Heaters · Veemax Manufactured</div>
+    <div class="pcard-name">M-Type &amp; U-Type Heaters</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">Air, immersion, cartridge, strip &amp; nozzle types</div>
+      <div class="pcard-hl">High-quality materials, custom wattage &amp; voltage</div>
+      <div class="pcard-hl">Power-saving and long-life variants</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">Industrial</span><span class="ptag">Custom</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/m_type_heater.jpg" alt="M-Type &amp; U-Type Heaters"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">M-Type &amp; U-Type Heaters</div>
+        <div class="pdetail-desc">Manufactured using high-quality material by expert professionals. Air heaters, long life finned, U-shaped, cartridge brass, strip, bobbin, power-saving and nozzle heater designs available.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Types</div><div class="spec-val">Air / Immersion / Cartridge / Strip</div></div><div class="spec-item"><div class="spec-label">Wattage</div><div class="spec-val">As per requirement</div></div><div class="spec-item"><div class="spec-label">Voltage</div><div class="spec-val">230V / 415V / Custom</div></div><div class="spec-item"><div class="spec-label">Material</div><div class="spec-val">SS304 / SS316 / Copper</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="heaters">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/mica_band_heater.jpg" alt="Mica Band Heaters" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Heaters · Veemax Manufactured</div>
+    <div class="pcard-name">Mica Band Heaters</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">Up to 950°C, NiChrome 60% or 80% alloy</div>
+      <div class="pcard-hl">Mica card winding, sheet metal sandwich</div>
+      <div class="pcard-hl">Ideal for injection moulding, plastic processing</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">Up to 950°C</span><span class="ptag">NiChrome</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/mica_band_heater.jpg" alt="Mica Band Heaters"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Mica Band Heaters</div>
+        <div class="pdetail-desc">Resistance wire or ribbon wound around mica card, sandwiched between two sheets of mica then wrapped in sheet metal. Converts electrical energy to thermal. Up to 950°C for plastic processing and extrusion.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Max Temp</div><div class="spec-val">Up to 950°C</div></div><div class="spec-item"><div class="spec-label">Element</div><div class="spec-val">NiChrome 60% / 80%</div></div><div class="spec-item"><div class="spec-label">Application</div><div class="spec-val">Injection Moulding, Extrusion</div></div><div class="spec-item"><div class="spec-label">Supply</div><div class="spec-val">Custom dimensions</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="heaters">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/ceramic_band_heater.jpg" alt="Ceramic Band &amp; Tubular Heaters" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Heaters · Veemax Manufactured</div>
+    <div class="pcard-name">Ceramic Band &amp; Tubular Heaters</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">Ceramic: up to 1100°C, interlocking steatite bricks</div>
+      <div class="pcard-hl">Tubular: chrome-nickel, dia 6–15.5mm, up to 25W/sq.in</div>
+      <div class="pcard-hl">For blow moulding, extrusion, drum heating</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">Up to 1100°C</span><span class="ptag">Incoloy 800</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/ceramic_band_heater.jpg" alt="Ceramic Band &amp; Tubular Heaters"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Ceramic Band &amp; Tubular Heaters</div>
+        <div class="pdetail-desc">Ceramic band heaters use interlocking steatite bricks with NiChrome wire — up to 1100°C. Tubular heaters are chrome-nickel steel sheathed with high-grade MgO insulation. Both custom-manufactured.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Ceramic Max Temp</div><div class="spec-val">Up to 1100°C</div></div><div class="spec-item"><div class="spec-label">Tubular Dia</div><div class="spec-val">6, 8, 10, 12.5, 15.5mm</div></div><div class="spec-item"><div class="spec-label">Sheath Material</div><div class="spec-val">SS304, SS316, Incoloy 800</div></div><div class="spec-item"><div class="spec-label">Watt Density</div><div class="spec-val">Up to 25W/sq.in</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="heaters">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/titanium_heater.jpg" alt="Titanium &amp; Duct Heaters" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Heaters · Veemax Manufactured</div>
+    <div class="pcard-name">Titanium &amp; Duct Heaters</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">Titanium: ideal for electroplating industries</div>
+      <div class="pcard-hl">Duct: gas/air preheating up to 400°C</div>
+      <div class="pcard-hl">Single &amp; three phase, all custom sizes</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">Titanium</span><span class="ptag">Electroplating</span><span class="ptag">Up to 400°C</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/titanium_heater.jpg" alt="Titanium &amp; Duct Heaters"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Titanium &amp; Duct Heaters</div>
+        <div class="pdetail-desc">Titanium heaters for electroplating — single/three phase, rubber cap encapsulated, custom tank sizes. Duct heaters for preheating and drying of gas/air — stainless steel finned tubular elements on MS flange.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Titanium Application</div><div class="spec-val">Electroplating Tanks</div></div><div class="spec-item"><div class="spec-label">Duct Max Temp</div><div class="spec-val">Up to 400°C</div></div><div class="spec-item"><div class="spec-label">Phase</div><div class="spec-val">Single / Three Phase</div></div><div class="spec-item"><div class="spec-label">Duct Type</div><div class="spec-val">Circular / Rectangular</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="heaters">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/muffle_furnace.jpg" alt="Muffle &amp; High Temperature Furnaces" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Heaters · Lab &amp; Industrial</div>
+    <div class="pcard-name">Muffle &amp; High Temperature Furnaces</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">500–1700°C temperature range</div>
+      <div class="pcard-hl">CALSys calibration standard</div>
+      <div class="pcard-hl">Non-contact IR thermometer &amp; Black Body support</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">Up to 1700°C</span><span class="ptag">Calibration</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/muffle_furnace.jpg" alt="Muffle &amp; High Temperature Furnaces"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Muffle &amp; High Temperature Furnaces</div>
+        <div class="pdetail-desc">Muffle furnaces with advanced technology. High temperature furnaces up to 1700°C for calibration (Black Body Furnace), heat treatment and laboratory applications.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Temp Range</div><div class="spec-val">500 to 1700°C</div></div><div class="spec-item"><div class="spec-label">Standard</div><div class="spec-val">CALSys General</div></div><div class="spec-item"><div class="spec-label">Application</div><div class="spec-val">Calibration, Lab, Heat Treatment</div></div><div class="spec-item"><div class="spec-label">Black Body Dia</div><div class="spec-val">29mm</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="flow">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/vortex_flowmeter_temp_comp.jpg" alt="Vortex Flowmeters" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Flow · Veemax Own Brand</div>
+    <div class="pcard-name">Vortex Flowmeters</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">Steam, gas, air &amp; liquid — 15 to 300 NB</div>
+      <div class="pcard-hl">4–20mA + HART, ±0.5% FSD accuracy</div>
+      <div class="pcard-hl">Temp &amp; pressure compensation model available</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">Steam</span><span class="ptag">HART</span><span class="ptag">Ex-Proof</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/vortex_flowmeter_temp_comp.jpg" alt="Vortex Flowmeters"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Vortex Flowmeters</div>
+        <div class="pdetail-desc">Suitable for steam, gas, air and liquid measurement. 5-digit LCD flow rate display, 8-digit totaliser, relay output (Low &amp; High Flow Alarm). FLP enclosure available.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Application</div><div class="spec-val">Steam, Gas, Air, Liquid</div></div><div class="spec-item"><div class="spec-label">Line Size</div><div class="spec-val">15 NB to 300 NB</div></div><div class="spec-item"><div class="spec-label">Power Supply</div><div class="spec-val">24 VDC</div></div><div class="spec-item"><div class="spec-label">Output</div><div class="spec-val">4–20mA + HART</div></div><div class="spec-item"><div class="spec-label">Accuracy</div><div class="spec-val">±0.5% of FSD</div></div><div class="spec-item"><div class="spec-label">Product Code</div><div class="spec-val">SDVFM-F / SDVFM-F-TPC</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="flow">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/em_flowmeter_field.jpg" alt="Electromagnetic Flowmeters" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Flow · Veemax Own Brand</div>
+    <div class="pcard-name">Electromagnetic Flowmeters</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">Water, wastewater, slurries, effluent</div>
+      <div class="pcard-hl">Line size 15–600 NB, field-mounted totaliser</div>
+      <div class="pcard-hl">GSM/GPRS telemetry option available</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">Water</span><span class="ptag">GSM Option</span><span class="ptag">Wastewater</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/em_flowmeter_field.jpg" alt="Electromagnetic Flowmeters"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Electromagnetic Flowmeters</div>
+        <div class="pdetail-desc">For water, waste water, slurries and effluent. Field-mounted flow rate indicator, totaliser, 4–20mA output. Remote indication and GSM/GPRS model for data transmission. Insertion type for large pipes.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Application</div><div class="spec-val">Water, Slurries, Effluent</div></div><div class="spec-item"><div class="spec-label">Line Size</div><div class="spec-val">15 NB to 600 NB</div></div><div class="spec-item"><div class="spec-label">Power Supply</div><div class="spec-val">24 VDC / 230 VAC</div></div><div class="spec-item"><div class="spec-label">Output</div><div class="spec-val">4–20mA + HART</div></div><div class="spec-item"><div class="spec-label">Accuracy</div><div class="spec-val">±0.5% of FSD</div></div><div class="spec-item"><div class="spec-label">Product Code</div><div class="spec-val">SMAG-300-FR-TL-TX</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="flow">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/coriolis_mass_flowmeter.jpg" alt="Coriolis Mass Flowmeters" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Flow · Veemax Own Brand</div>
+    <div class="pcard-name">Coriolis Mass Flowmeters</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">Various fluids, 3–200 NB line size</div>
+      <div class="pcard-hl">4–20mA + HART, ±0.5% FSD accuracy</div>
+      <div class="pcard-hl">24VDC / 230VAC power supply</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">Mass Flow</span><span class="ptag">HART</span><span class="ptag">High Accuracy</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/coriolis_mass_flowmeter.jpg" alt="Coriolis Mass Flowmeters"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Coriolis Mass Flowmeters</div>
+        <div class="pdetail-desc">Direct mass flow measurement for various industrial fluids. High accuracy Coriolis principle. Suitable for custody transfer and precision dosing.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Line Size</div><div class="spec-val">3 NB to 200 NB</div></div><div class="spec-item"><div class="spec-label">Output</div><div class="spec-val">4–20mA + HART</div></div><div class="spec-item"><div class="spec-label">Accuracy</div><div class="spec-val">±0.5% of FSD</div></div><div class="spec-item"><div class="spec-label">Power</div><div class="spec-val">24VDC / 230VAC</div></div><div class="spec-item"><div class="spec-label">Product Code</div><div class="spec-val">SDCMFM-FMD</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="flow">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/ultrasonic_level_transmitter.jpg" alt="Ultrasonic Level Transmitters" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Level · Veemax Own Brand</div>
+    <div class="pcard-name">Ultrasonic Level Transmitters</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">Range 3M &amp; 8M, 4-digit LCD display</div>
+      <div class="pcard-hl">4–20mA + HART, 1NO+1NC relay</div>
+      <div class="pcard-hl">FLP enclosure IIA, IIB, IIC, T6</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">Non-Contact</span><span class="ptag">FLP Option</span><span class="ptag">HART</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/ultrasonic_level_transmitter.jpg" alt="Ultrasonic Level Transmitters"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Ultrasonic Level Transmitters</div>
+        <div class="pdetail-desc">Non-contact ultrasonic level measurement for tanks and vessels. FLP enclosure for hazardous areas. Remote indication model also available.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Range</div><div class="spec-val">3M &amp; 8M</div></div><div class="spec-item"><div class="spec-label">Output</div><div class="spec-val">4–20mA + HART</div></div><div class="spec-item"><div class="spec-label">Relay</div><div class="spec-val">1NO + 1NC</div></div><div class="spec-item"><div class="spec-label">Supply</div><div class="spec-val">230VAC / 24VDC</div></div><div class="spec-item"><div class="spec-label">Enclosure</div><div class="spec-val">FLP (IIA, IIB, IIC, T6)</div></div><div class="spec-item"><div class="spec-label">Product Code</div><div class="spec-val">SD-ULITS / SD-ULITF</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="flow">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/magnetic_level_switch.jpg" alt="Level Switches — All Types" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Level · Multi-Brand</div>
+    <div class="pcard-name">Level Switches — All Types</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">Magnetic, rotary paddle, tuning fork, float types</div>
+      <div class="pcard-hl">Baumer, Rotex, Festo, Janatics brands</div>
+      <div class="pcard-hl">FLP &amp; W-Proof options available</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">Baumer</span><span class="ptag">Rotex</span><span class="ptag">Festo</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/magnetic_level_switch.jpg" alt="Level Switches — All Types"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Level Switches — All Types</div>
+        <div class="pdetail-desc">Complete range: side-mounted magnetic, rotary paddle, tuning fork, conductivity, capacitance, cable float and displacer types. FLP and weather-proof options.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Types</div><div class="spec-val">Magnetic / Paddle / Fork / Float / Capacitance</div></div><div class="spec-item"><div class="spec-label">Design Temp</div><div class="spec-val">Up to 350°C</div></div><div class="spec-item"><div class="spec-label">Design Pressure</div><div class="spec-val">Up to 60 Kg/cm²</div></div><div class="spec-item"><div class="spec-label">Enclosure</div><div class="spec-val">FP, W-Proof, IP65/Ex-Proof</div></div><div class="spec-item"><div class="spec-label">Brands</div><div class="spec-val">Baumer, Rotex, Festo, Janatics</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="flow">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/side_magnetic_level.jpg" alt="Magnetic Level Indicators &amp; Gauges" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Level · Veemax Own Brand</div>
+    <div class="pcard-name">Magnetic Level Indicators &amp; Gauges</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">Side-mounted magnetic, reflex &amp; transparent gauges</div>
+      <div class="pcard-hl">Up to 450°C design temperature, 60 kg/cm²</div>
+      <div class="pcard-hl">With transmitter &amp; Hi-Low switch options</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">Boiler Safe</span><span class="ptag">Up to 450°C</span><span class="ptag">4-20mA</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/side_magnetic_level.jpg" alt="Magnetic Level Indicators &amp; Gauges"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Magnetic Level Indicators &amp; Gauges</div>
+        <div class="pdetail-desc">Side-mounted magnetic level indicators, reflex &amp; transparent level gauges, tubular level indicators for pressure vessels and boilers. C/C distance up to 3000mm.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Design Temp</div><div class="spec-val">Up to 450°C</div></div><div class="spec-item"><div class="spec-label">Design Pressure</div><div class="spec-val">Up to 60 Kg/cm²</div></div><div class="spec-item"><div class="spec-label">C/C Distance</div><div class="spec-val">Up to 3000mm</div></div><div class="spec-item"><div class="spec-label">Transmitter</div><div class="spec-val">4–20mA, FLP Option</div></div><div class="spec-item"><div class="spec-label">Product Code</div><div class="spec-val">MLI 2200 Series</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="pressure">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/diff_pressure_transmitter.jpg" alt="Pressure &amp; DP Transmitters" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Pressure · Veemax Own Brand</div>
+    <div class="pcard-name">Pressure &amp; DP Transmitters</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">Range –1 to 600 bar, 4–20mA + HART</div>
+      <div class="pcard-hl">SS304 wetted parts, SS316L diaphragm</div>
+      <div class="pcard-hl">±0.25% FS, IP65 enclosure, 24VDC</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">HART</span><span class="ptag">IP65</span><span class="ptag">SS316L</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/diff_pressure_transmitter.jpg" alt="Pressure &amp; DP Transmitters"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Pressure &amp; DP Transmitters</div>
+        <div class="pdetail-desc">Pressure transmitters (gauge, absolute) and differential pressure transmitters. LCD display versions available. Screwed and flanged connections. Hastalloy C option for aggressive media.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Range</div><div class="spec-val">–1 to 600 bar</div></div><div class="spec-item"><div class="spec-label">Output</div><div class="spec-val">4–20mA + HART</div></div><div class="spec-item"><div class="spec-label">Accuracy</div><div class="spec-val">±0.25% / ±0.075% FS</div></div><div class="spec-item"><div class="spec-label">Enclosure</div><div class="spec-val">IP65</div></div><div class="spec-item"><div class="spec-label">Diaphragm</div><div class="spec-val">SS316 / Hastalloy C</div></div><div class="spec-item"><div class="spec-label">Product Code</div><div class="spec-val">PTX-S / PIT-S / DPT</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="pressure">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/general_pressure_gauge.jpg" alt="Pressure Gauges — General &amp; Diaphragm Sealed" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Pressure · Process Instrument</div>
+    <div class="pcard-name">Pressure Gauges — General &amp; Diaphragm Sealed</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">Dial 65–200mm, SS304 case &amp; movement</div>
+      <div class="pcard-hl">Bottom/back mount, 1/8"–1/2" NPT/BSP</div>
+      <div class="pcard-hl">Diaphragm sealed for viscous/corrosive media</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">SS304/316</span><span class="ptag">NPT/BSP</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/general_pressure_gauge.jpg" alt="Pressure Gauges — General &amp; Diaphragm Sealed"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Pressure Gauges — General &amp; Diaphragm Sealed</div>
+        <div class="pdetail-desc">General purpose and diaphragm-sealed gauges for process pipelines and vessels. SS304 case and movement, SS316 diaphragm for sealed type.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Dial Size</div><div class="spec-val">65, 100, 150, 200mm</div></div><div class="spec-item"><div class="spec-label">Case</div><div class="spec-val">SS304</div></div><div class="spec-item"><div class="spec-label">Movement</div><div class="spec-val">SS304</div></div><div class="spec-item"><div class="spec-label">Connection</div><div class="spec-val">1/8"–1/2" NPT/BSP</div></div><div class="spec-item"><div class="spec-label">Mount</div><div class="spec-val">Bottom / Back / Flange</div></div><div class="spec-item"><div class="spec-label">Product Code</div><div class="spec-val">GPPG / PGD</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="controls">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/panel_flow_indicator.jpg" alt="Variable Frequency Drives (VFDs)" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Controls · Multi-Brand</div>
+    <div class="pcard-name">Variable Frequency Drives (VFDs)</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">Delta, Danfoss, Mitsubishi, Fuji brands</div>
+      <div class="pcard-hl">0.2kW to 800kW, single &amp; three phase</div>
+      <div class="pcard-hl">Energy saving, motor speed control</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">Delta</span><span class="ptag">Danfoss</span><span class="ptag">Mitsubishi</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/panel_flow_indicator.jpg" alt="Variable Frequency Drives (VFDs)"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Variable Frequency Drives (VFDs)</div>
+        <div class="pdetail-desc">Authorised dealer for VFDs from Delta, Danfoss, Mitsubishi and Fuji. Full programming, installation and commissioning support available.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Brands</div><div class="spec-val">Delta, Danfoss, Mitsubishi, Fuji</div></div><div class="spec-item"><div class="spec-label">Range</div><div class="spec-val">0.2kW to 800kW</div></div><div class="spec-item"><div class="spec-label">Phase</div><div class="spec-val">Single &amp; Three Phase</div></div><div class="spec-item"><div class="spec-label">Supply</div><div class="spec-val">230V / 415V / 480V</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="controls">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/temperature_transmitter.jpg" alt="PIDs, Indicators &amp; Recorders" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Controls · Multi-Brand</div>
+    <div class="pcard-name">PIDs, Indicators &amp; Recorders</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">ABB &amp; Siemens PIDs, recorders, scanners</div>
+      <div class="pcard-hl">Auto-tune PID, ramp/soak, RS485 Modbus</div>
+      <div class="pcard-hl">Paperless recorders for multi-channel logging</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">ABB</span><span class="ptag">Siemens</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/temperature_transmitter.jpg" alt="PIDs, Indicators &amp; Recorders"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">PIDs, Indicators &amp; Recorders</div>
+        <div class="pdetail-desc">PID controllers, on/off controllers, process indicators and paperless recorders from ABB and Siemens. Auto-tune PID, ramp-soak programming, RS485/Modbus communication.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Brands</div><div class="spec-val">ABB, Siemens</div></div><div class="spec-item"><div class="spec-label">Types</div><div class="spec-val">PID / On-Off / Scanner / Recorder</div></div><div class="spec-item"><div class="spec-label">Communication</div><div class="spec-val">RS485 / Modbus</div></div><div class="spec-item"><div class="spec-label">Input</div><div class="spec-val">TC / RTD / 4–20mA / mV</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="panels">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/muffle_furnace.jpg" alt="MCC &amp; Control Panels" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Panels · Custom Manufactured</div>
+    <div class="pcard-name">MCC &amp; Control Panels</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">MCC panels to IS/IEC standards</div>
+      <div class="pcard-hl">Control panels with PLC, HMI, VFD integration</div>
+      <div class="pcard-hl">Designed as per client P&amp;ID and load schedule</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">IS/IEC</span><span class="ptag">Custom Built</span><span class="ptag">PLC/HMI</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/muffle_furnace.jpg" alt="MCC &amp; Control Panels"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">MCC &amp; Control Panels</div>
+        <div class="pdetail-desc">Motor Control Centres (MCC) and custom automation control panels built to IS/IEC standards per your load schedule, SLD and P&amp;ID. Integration of PLCs, HMIs, VFDs, contactors, MCBs, MCCBs.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Standard</div><div class="spec-val">IS / IEC</div></div><div class="spec-item"><div class="spec-label">Integration</div><div class="spec-val">PLC, HMI, VFD, Contactors</div></div><div class="spec-item"><div class="spec-label">Protection</div><div class="spec-val">IP41 / IP54 / IP65</div></div><div class="spec-item"><div class="spec-label">Supply</div><div class="spec-val">As per client drawing</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="panels">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/patco_reaction_vessel.jpg" alt="Fire Suppression &amp; Fire Fighting Systems" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Safety · Fire Protection</div>
+    <div class="pcard-name">Fire Suppression &amp; Fire Fighting Systems</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">Fire suppression for existing electrical panels</div>
+      <div class="pcard-hl">Complete fire fighting for industrial premises</div>
+      <div class="pcard-hl">Automatic detection and suppression</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">Panel Safety</span><span class="ptag">Auto Suppress</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/patco_reaction_vessel.jpg" alt="Fire Suppression &amp; Fire Fighting Systems"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Fire Suppression &amp; Fire Fighting Systems</div>
+        <div class="pdetail-desc">Fire suppression systems specifically designed for existing electrical panels — protecting critical switchgear. Complete fire fighting solutions including sprinklers, hydrants and alarm panels.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Application</div><div class="spec-val">Electrical Panels, Industrial Premises</div></div><div class="spec-item"><div class="spec-label">Detection</div><div class="spec-val">Automatic</div></div><div class="spec-item"><div class="spec-label">Suppression</div><div class="spec-val">Clean Agent / Gas</div></div><div class="spec-item"><div class="spec-label">Supply</div><div class="spec-val">Design, Supply &amp; Install</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="panels">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/flow_switch_wp.jpg" alt="FRP Blowers &amp; Scrubbers" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Industrial · Environmental</div>
+    <div class="pcard-name">FRP Blowers &amp; Scrubbers</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">Corrosion-resistant Fibre Reinforced Plastic</div>
+      <div class="pcard-hl">Centrifugal and axial types, custom CFM</div>
+      <div class="pcard-hl">For corrosive gas and chemical fume handling</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">FRP</span><span class="ptag">Corrosion Resistant</span><span class="ptag">Custom</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/flow_switch_wp.jpg" alt="FRP Blowers &amp; Scrubbers"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">FRP Blowers &amp; Scrubbers</div>
+        <div class="pdetail-desc">Fibre Reinforced Plastic blowers and wet scrubbers for handling corrosive gases, chemical fumes and exhaust. Highly resistant to acids and chemicals. Custom airflow and pressure.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Material</div><div class="spec-val">Fibre Reinforced Plastic</div></div><div class="spec-item"><div class="spec-label">Types</div><div class="spec-val">Centrifugal / Axial / Scrubber</div></div><div class="spec-item"><div class="spec-label">Application</div><div class="spec-val">Corrosive Gas / Chemical Fumes</div></div><div class="spec-item"><div class="spec-label">CFM</div><div class="spec-val">As per requirement</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="flp">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/patco_wellglass.jpg" alt="FLP/WP Well Glass &amp; LED Fittings" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">FLP · Patco Flameproof</div>
+    <div class="pcard-name">FLP/WP Well Glass &amp; LED Fittings</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">LED: 30/45/60W well glass, 60/90/120W flood</div>
+      <div class="pcard-hl">Gas Group I, IIA, IIB — IP65 — IEC60079</div>
+      <div class="pcard-hl">Toughened Type-A glass, SS hardware</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">Patco</span><span class="ptag">IP65</span><span class="ptag">IEC 60079</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/patco_wellglass.jpg" alt="FLP/WP Well Glass &amp; LED Fittings"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">FLP/WP Well Glass &amp; LED Fittings</div>
+        <div class="pdetail-desc">Patco flameproof LED and conventional light fittings. Well glass (integral and separate), flood lights, bulkhead, tube lights. IS 2148 / IEC 60079-1:2007 certified.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">LED Rating</div><div class="spec-val">30W / 45W / 60W (Well Glass)</div></div><div class="spec-item"><div class="spec-label">Flood LED</div><div class="spec-val">60W / 90W / 120W</div></div><div class="spec-item"><div class="spec-label">Gas Group</div><div class="spec-val">I, IIA, IIB</div></div><div class="spec-item"><div class="spec-label">IP Protection</div><div class="spec-val">IP-65</div></div><div class="spec-item"><div class="spec-label">Certification</div><div class="spec-val">IS 2148, IEC 60079-1:2007</div></div><div class="spec-item"><div class="spec-label">Brand</div><div class="spec-val">Patco Flameproof</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="flp">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/flp_sudhir_products.jpg" alt="Sudhir FLP Lighting &amp; Junction Boxes" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">FLP · Sudhir Electricals</div>
+    <div class="pcard-name">Sudhir FLP Lighting &amp; Junction Boxes</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">FLP/WP LED flood, tube &amp; bulkhead fittings</div>
+      <div class="pcard-hl">Junction boxes Gr IIA, IIB, IIC (Dia 100 &amp; 120)</div>
+      <div class="pcard-hl">Cable glands Gr IIA, IIB, IIC &amp; ATEX</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">Sudhir</span><span class="ptag">ATEX</span><span class="ptag">Gr IIC</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/flp_sudhir_products.jpg" alt="Sudhir FLP Lighting &amp; Junction Boxes"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Sudhir FLP Lighting &amp; Junction Boxes</div>
+        <div class="pdetail-desc">FLP/WP LED light fittings (30–120W), conventional well glass (125–250W HPMV), flood lights, bulkhead CFL fittings, FTL tube lights, hooter with beacon, junction boxes and cable glands.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">LED Fittings</div><div class="spec-val">30W to 120W</div></div><div class="spec-item"><div class="spec-label">Conventional</div><div class="spec-val">125W / 250W HPMV</div></div><div class="spec-item"><div class="spec-label">Junction Box</div><div class="spec-val">Gr IIA, IIB, IIC — Dia 100/120</div></div><div class="spec-item"><div class="spec-label">Cable Glands</div><div class="spec-val">Gr IIA, IIB, IIC, ATEX</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="valves">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/honeywell_valves_resized.jpg" alt="Honeywell Ball, Butterfly &amp; Control Valves" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Valves · Honeywell Exclusive Dealer</div>
+    <div class="pcard-name">Honeywell Ball, Butterfly &amp; Control Valves</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">Ball, butterfly, balancing, 2-way/3-way valves</div>
+      <div class="pcard-hl">PICV, steam valves, VBA &amp; FCU valves</div>
+      <div class="pcard-hl">Exclusive Honeywell dealer — genuine products</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">Honeywell</span><span class="ptag">Exclusive</span><span class="ptag">HVAC</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/honeywell_valves_resized.jpg" alt="Honeywell Ball, Butterfly &amp; Control Valves"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Honeywell Ball, Butterfly &amp; Control Valves</div>
+        <div class="pdetail-desc">Exclusive Honeywell dealers for the complete valve range: ball valves, butterfly valves, motorised butterfly valves, balancing valves, 2-way/3-way control valves, PICV, Y-strainers, steam valves, VBA and FCU valves.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Types</div><div class="spec-val">Ball, Butterfly, 2W/3W, PICV, Steam</div></div><div class="spec-item"><div class="spec-label">Application</div><div class="spec-val">HVAC, Building Services</div></div><div class="spec-item"><div class="spec-label">Brand</div><div class="spec-val">Honeywell (Genuine)</div></div><div class="spec-item"><div class="spec-label">Dealer Status</div><div class="spec-val">Exclusive Authorised Dealer</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="valves">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/honeywell_actuators_resized.jpg" alt="Honeywell Actuators &amp; Thermostats" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Valves · Honeywell Exclusive Dealer</div>
+    <div class="pcard-name">Honeywell Actuators &amp; Thermostats</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">Linear, rotary, PICV, MVN, damper actuators</div>
+      <div class="pcard-hl">Digital &amp; analog thermostats, wall modules</div>
+      <div class="pcard-hl">UB controllers for building automation</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">Honeywell</span><span class="ptag">Exclusive</span><span class="ptag">BMS</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/honeywell_actuators_resized.jpg" alt="Honeywell Actuators &amp; Thermostats"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Honeywell Actuators &amp; Thermostats</div>
+        <div class="pdetail-desc">Complete Honeywell actuator range: linear, rotary, PICV, MVN and damper actuators for precise valve and damper control. Digital and analog thermostats, wall modules and UB controllers.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Actuators</div><div class="spec-val">Linear, Rotary, PICV, MVN, Damper</div></div><div class="spec-item"><div class="spec-label">Thermostats</div><div class="spec-val">Digital, Analog, Wall Module</div></div><div class="spec-item"><div class="spec-label">Controllers</div><div class="spec-val">UB Controller</div></div><div class="spec-item"><div class="spec-label">Application</div><div class="spec-val">HVAC / BMS</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="valves">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/flow_switch_flp.jpg" alt="Solenoid Valves" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Valves · Multi-Brand</div>
+    <div class="pcard-name">Solenoid Valves</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">Rotex, Festo, Janatics brands</div>
+      <div class="pcard-hl">2/2 and 3/2 way, direct-acting &amp; pilot</div>
+      <div class="pcard-hl">FLP option, custom voltage &amp; body material</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">Rotex</span><span class="ptag">Festo</span><span class="ptag">Janatics</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/flow_switch_flp.jpg" alt="Solenoid Valves"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Solenoid Valves</div>
+        <div class="pdetail-desc">Direct-acting and pilot-operated solenoid valves from Rotex, Festo and Janatics. 2/2 and 3/2 way. FLP/ATEX versions available. Custom coil voltage and body material.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Brands</div><div class="spec-val">Rotex, Festo, Janatics</div></div><div class="spec-item"><div class="spec-label">Types</div><div class="spec-val">2/2 Way, 3/2 Way</div></div><div class="spec-item"><div class="spec-label">Operation</div><div class="spec-val">Direct-Acting / Pilot</div></div><div class="spec-item"><div class="spec-label">Enclosure</div><div class="spec-val">Standard / FLP / ATEX</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="other">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/thermal_mass_flowmeter.jpg" alt="Boilers, Burners &amp; Thermic Fluid Heater Spares" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Other · Boiler &amp; Thermal</div>
+    <div class="pcard-name">Boilers, Burners &amp; Thermic Fluid Heater Spares</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">Spare parts for all makes of boilers &amp; burners</div>
+      <div class="pcard-hl">Thermic fluid heater spares &amp; components</div>
+      <div class="pcard-hl">Fuel handling systems, gear boxes, RAV</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">All Makes</span><span class="ptag">Fast Delivery</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/thermal_mass_flowmeter.jpg" alt="Boilers, Burners &amp; Thermic Fluid Heater Spares"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Boilers, Burners &amp; Thermic Fluid Heater Spares</div>
+        <div class="pdetail-desc">Complete range of spare parts for boilers, burners and thermic fluid heaters across all makes. Fuel handling systems, gear boxes and RAV equipment.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Coverage</div><div class="spec-val">All Makes &amp; Models</div></div><div class="spec-item"><div class="spec-label">Items</div><div class="spec-val">Burner Parts, Fuel Handling, Gear Box, RAV</div></div><div class="spec-item"><div class="spec-label">Delivery</div><div class="spec-val">Fast Turnaround</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pcard fade-up" data-cat="other">
+  <div class="pcard-accent"></div>
+  <div class="pcard-img"><img src="images/oval_gear_flowmeter.jpg" alt="Water Meters — Single Jet, Multi Jet &amp; Woltman" loading="lazy"></div>
+  <div class="pcard-body">
+    <div class="pcard-cat">Other · Water Measurement</div>
+    <div class="pcard-name">Water Meters — Single Jet, Multi Jet &amp; Woltman</div>
+    <div class="pcard-highlights">
+      <div class="pcard-hl">ISO 4064 Class B, dry dial, brass body</div>
+      <div class="pcard-hl">15–300 NB, 10–16 bar design pressure</div>
+      <div class="pcard-hl">Woltman with magnetic drive for large pipes</div>
+    </div>
+  </div>
+  <div class="pcard-footer">
+    <div class="pcard-tags"><span class="ptag">ISO 4064</span><span class="ptag">Class B</span><span class="ptag">Brass</span></div>
+    <button class="pcard-expand-btn" onclick="openModalFromCard(this)">Details <span class="expand-arrow">▾</span></button>
+  </div>
+  <div class="pcard-detail">
+    <div class="pdetail-inner">
+      <div class="pdetail-img"><img src="images/oval_gear_flowmeter.jpg" alt="Water Meters — Single Jet, Multi Jet &amp; Woltman"></div>
+      <div class="pdetail-content">
+        <div class="pdetail-title">Water Meters — Single Jet, Multi Jet &amp; Woltman</div>
+        <div class="pdetail-desc">Single jet (15–20 NB), multi-jet and Woltman magnetic drive water meters (50–300 NB). ISO 4064 Class B standard. Dry dial display, brass outer body.</div>
+        <div class="pdetail-specs"><div class="spec-item"><div class="spec-label">Standard</div><div class="spec-val">ISO 4064 Class B</div></div><div class="spec-item"><div class="spec-label">Size</div><div class="spec-val">15 NB to 300 NB</div></div><div class="spec-item"><div class="spec-label">Design Pressure</div><div class="spec-val">10–16 bar</div></div><div class="spec-item"><div class="spec-label">Body</div><div class="spec-val">Brass / Engg Plastic</div></div><div class="spec-item"><div class="spec-label">Product Code</div><div class="spec-val">SDLXG / SDLXLC</div></div></div>
+        <div class="pdetail-action">
+          <a href="contact.html" class="btn-fill">Enquire Now →</a>
+          <a href="tel:+919398090354" class="btn-outline">📞 Call Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="products-cta">
+      <div class="products-cta-title">Can't find what you need?</div>
+      <p class="products-cta-desc">We stock hundreds more products and can source any industrial instrumentation item. Email your complete requirements to us.</p>
+      <div class="products-cta-btns">
+        <a href="contact.html" class="btn-fill">Send Full Requirement →</a>
+        <a href="mailto:veemaxsolutions@gmail.com" class="btn-outline">veemaxsolutions@gmail.com</a>
+      </div>
+    </div>
+  </div>
+</section>
+<div id="productModal" class="modal">
+  <div class="modal-content modal-lg">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand-logo">
+        <img src="logo.jpeg" alt="Veemax Solutions">
+        <p>Manufacturers &amp; authorised dealers for industrial instrumentation, process equipment, heaters, control panels and FLP products. Based in Hyderabad, Telangana, India.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="products.html?cat=sensors">Thermocouples &amp; RTDs</a></li>
+          <li><a href="products.html?cat=heaters">Electrical Heaters</a></li>
+          <li><a href="products.html?cat=flow">Flow &amp; Level</a></li>
+          <li><a href="products.html?cat=pressure">Pressure Instruments</a></li>
+          <li><a href="products.html?cat=controls">VFDs &amp; Controls</a></li>
+          <li><a href="products.html?cat=flp">FLP / Flameproof</a></li>
+          <li><a href="products.html?cat=valves">Honeywell Valves</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">All Products</a></li>
+          <li><a href="brands.html">Brands</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="contact.html">Get a Quote</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="fci">✉ <a href="mailto:veemaxsolutions@gmail.com">veemaxsolutions@gmail.com</a></div>
+        <div class="fci">📞 <a href="tel:+919398090354">+91 93980 90354</a></div>
+        <div class="fci">💬 <a href="https://wa.me/919398090354" target="_blank">WhatsApp Us</a></div>
+        <div class="fci">📍 Hyderabad, Telangana, India</div>
+        <div class="fci" style="margin-top:8px;color:rgba(255,255,255,0.55)">Kishore — Proprietor</div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Veemax Solutions. All rights reserved.</p>
+      <div class="footer-tagline">Industrial Products · Hyderabad, India</div>
+    </div>
+  </div>
+</footer>
+<a href="https://wa.me/919398090354" target="_blank" class="wa-btn" title="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+<a href="#" class="back-top" id="backTop">↑</a>
+<script src="main.js"></script>
+<script src="products.js"></script>
+</body>
+</html>
